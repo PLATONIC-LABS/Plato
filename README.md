@@ -6,15 +6,16 @@
 
 ## Backend & Orchestration Cluster
 - LangChain (orchestration framework)
+- Crew AI (agentic orchestration)
 - API Gateway (API management)
 - CidrBlock (user input handling)
 
 ## AI & Model Cluster
 - PAI-EAS (Platform for AI - Elastic Algorithm Service)
-- Large Language Models:
- - QWen 7/13B
- - Llama 2 7/13B
- - Other LLMs
+- Large Language Model to use: Qwen-Turbo (Text-to-Text)
+
+Qwen-Turbo is an ultra-large language model that supports multiple input languages such as Chinese and English.Compared to previous versions, the main improvement is in the extended context length. The maximum context length supported by the model has been expanded from 128k to 1M, which is approximately equivalent to 1 million English words or 1.5 million Chinese characters. This is roughly the same as 10 full-length novels, 150 hours of speech transcripts, or 30,000 lines of code.
+
 
 ## Data Storage Cluster
 - AnalyticDB for PostgreSQL (vector database for embeddings)
