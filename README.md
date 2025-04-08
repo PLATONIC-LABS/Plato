@@ -1,4 +1,4 @@
-# RAG Service Architecture on Alibaba Cloud
+# PLATO RAG Architecture on Alibaba Cloud
 
 ## Frontend Cluster
 - Next.js + Tailwind CSS (UI framework and styling)
