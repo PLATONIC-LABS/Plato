@@ -1,4 +1,5 @@
-# PLATO RAG Architecture on Alibaba Cloud
+# PLATO: Multi-Agent RAG Infrastructure
+#### Powering the future of Agentic Legaltech and AI-Powered Contract Drafting
 
 ## Frontend Cluster
 - Next.js (Server-Side Rendering)
