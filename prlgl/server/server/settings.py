@@ -32,7 +32,8 @@ if not OPENAI_API_KEY:
     raise ValueError("No OpenAI API key found in env. variables", os.getcwd())
 
 # This is Django secret key
-SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
+#SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
