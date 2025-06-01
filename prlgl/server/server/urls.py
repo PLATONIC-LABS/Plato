@@ -15,12 +15,17 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
+from django.http import HttpResponse
 from api.views import reply_dict_error_api
 from api.views import reply_dict_no_error_api
 from api.views import chatbot_api
 from api.views import finding_fictional_institution
 
+def home(request):
+    return HttpResponse("Welcome to your Django API server!")
+
 urlpatterns = [
+    path('', home, name='home'),
     path('dict-error/', reply_dict_error_api, name='reply_dict_error_api'), 
     path('dict-no-error/', reply_dict_no_error_api, name='reply_dict_no_error_api'),
     path('find-institution/', finding_fictional_institution, name='finding_fictional_institution'),
